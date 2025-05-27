@@ -13,3 +13,6 @@ Choose benchmark circuits according to different criteria including combinationa
 Example:
 ./atpg -ass0 c17.bench
 ```
+
+### Report:
+[report/ASS0_311510173.pdf](report/ASS0_311510173.pdf)
