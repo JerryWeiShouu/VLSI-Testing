@@ -16,3 +16,27 @@ Example:
 
 ### Report:
 [ASS0_311510173.pdf](report/ASS0_311510173.pdf)
+
+
+## Assignment 1
+### Description:
+Given a benchmark, one primary input (PI) and a primary output (PO) , please list and count all possible paths connecting the given PI and PO.
+The test circuit will only be combinational circuits, so there's no Flip-Flop (DFF) nor loop in the circuit.
+A path is a list of connected gates, and all listed paths have the same PI and PO gates.
+
+### Usage:
+```
+./atpg -path -start [PI] -end [PO] [circuit_name]
+
+Example:
+Input:
+./atpg -path -start G3 -end PO_G16 c17.bench
+
+Output:
+G3 net17 G16 PO_G16
+G3 net14 net18 G16 PO_G16
+The paths from G3 to PO_G16: 2
+```
+
+### Report:
+[ASS1_311510173.pdf](report/ASS1_311510173.pdf)
