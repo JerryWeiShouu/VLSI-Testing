@@ -2,6 +2,8 @@
 The course consisted of 7 assignments, where each task incrementally extended a basic PODEM implementation to incorporate and apply the algorithms covered in lectures.
 
 ## Contents
+- [Compilation](#compilation)
+- [Clean](#clean)
 - [Assignment 0](#assignment-0)
 - [Assignment 1](#assignment-1)
 - [Assignment 2](#assignment-2)
@@ -10,6 +12,17 @@ The course consisted of 7 assignments, where each task incrementally extended a 
 - [Assignment 5](#assignment-5)
 - [Assignment 6](#assignment-6)
 
+## Compilation
+Run the following command to compile the project.
+```sh
+make
+```
+
+## Clean
+The following command removes all files generated during the compilation process.
+```sh
+make clean
+```
 
 ## Assignment 0
 **Description:**  
