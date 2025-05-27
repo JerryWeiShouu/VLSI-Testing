@@ -2,7 +2,7 @@
 The course consisted of 7 assignments, where each task incrementally extended a basic PODEM implementation to incorporate and apply the algorithms covered in lectures.
 
 ## Contents
-- [Assignment 0](Assignment )
+- [Assignment 0](#assignment-1)
 - [Assignment 1](#Assignment 1)
 - [Assignment 2](#Assignment 2)
 - [Assignment 3](#Assignment 3)
